@@ -1,0 +1,107 @@
+#python task 1
+#1 AND
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+print(a&b)'''
+#2 OR
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+print(a|b)'''
+#3 XOR
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+print(a^b)'''
+#4 NOT
+'''a=int(input("enter a number"))
+print(~a)'''
+#5 Bill amount
+'''products=input("enter your product")
+percentage=int(input("enter your slot percent"))
+price=int(input("enter your product price"))
+C=percentage*price/100
+print(C)
+bill=(price+C)
+print(bill)
+print("your product is"+products+"your bill amount is"+str(bill)+"thank you")'''
+#6 find average
+'''a=int(input("enter no 1 weight"))
+b=int(input("enter no 2 weight"))
+c=int(input("enter no 3 weight"))
+d=int(input("enter no 4 weight"))
+e=int(input("enter no 5 weight"))
+print(a+b+c+d+e/5)'''
+#7 odd or even
+'''a=int(input("enter a number"))
+b=a&1
+if b==0:
+    print("the number is even")
+else:
+    print("the number is odd")'''
+#8 cube or square
+'''a=int(input("enter a number"))
+b=a**2
+if b==4:
+    print("the number is square")
+else:
+    print("the number is cube")'''
+#9 sqaure the middle digit
+"""a=54623
+b=a%10
+print(b)"""
+
+'''a=54623
+b=a%100
+print(b)'''
+
+
+'''a=54623
+b=a//100
+print(b)'''
+
+
+'''a=int(input("enter the number"))
+b=(a%1000)//100
+print(b**2)'''
+#10 swap method
+'''a=5
+b=3
+print(a,b)
+a=a+b
+b=a-b
+a=a-b
+print(a,b)'''
+#11 compare two numbers
+a=5
+b=int(input("enter the number"))
+if (a==b):
+    print("two values are equal")
+else:
+    print("two values are not eqaul")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
