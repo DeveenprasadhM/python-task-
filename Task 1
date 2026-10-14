@@ -70,6 +70,7 @@ a=a+b
 b=a-b
 a=a-b
 print(a,b)'''
+
 #11 compare two numbers
 a=5
 b=int(input("enter the number"))
@@ -77,6 +78,100 @@ if (a==b):
     print("two values are equal")
 else:
     print("two values are not eqaul")
+
+#12 check greater or less
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+if (a>b):
+    print("a is greater than b")
+else:
+    print("a is lesser than b")'''
+
+#13 check number is lesser than 50
+'''a=int(input("enter a number"))
+if (a<50):
+    print("a is lesser than 50")
+else:
+    print("a is greater than 50")'''
+
+#14 compare using >=
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+if (a>=b):
+    print("a is greater than or equal b")
+else:
+    print("a is lesser than or equal b")'''
+
+#15 equal ==
+'''a=int(input("enter a number"))
+b=int(input("enter a number"))
+if (a==b):
+    print("a is equal b")
+else:
+    print("a is not equal b")'''
+
+#16 exist in a list
+'''numbers=[1,2,3,4,5,6,7,8,9]
+print(3 in numbers)
+print(6 in numbers)
+print(12 not in numbers)'''
+
+#17 check number exist
+'''a=[2,3,4,5,6,7]
+print(5 in a)
+print(10 in a)
+print(7 not in a)
+print(2 in a)'''
+
+#18compund interest
+'''p=int(input("enter a principle amt"))
+n=int(input("enter a time"))
+r=int(input("rate of interest"))
+CI=p*(1+r/100)**n-p
+print(CI)'''
+
+#19 identity operator
+'''x=[10,20,30,40,50]
+y=x
+z=[10,20,30,40,50]
+print(x==z)
+print(x is z)
+print(x is y)
+print(x is not y)'''
+
+#20 identity operator
+'''x=[10,20,30,40,50]
+y=x
+z=[10,20,30,40,50]
+print(x==z)
+print(x is z)
+print(x is y)
+print(x is not y)'''
+
+#21 BMI
+'''weight=float(input("enter your weight"))
+height=float(input("enter your height"))
+BMI=weight/(height/100)**2
+print(BMI)'''
+
+#22 volume of cylinder
+'''radius=float(input("enter the radius"))
+height=float(input("enter the height"))
+vol=3.14*radius*radius*height
+print(vol)'''
+
+#23 volume of cuboid
+'''length=float(input("enter length"))
+breadth=float(input("enter breadth"))
+height=float(input("enter height"))
+vol_cube=length*breadth*height
+print(vol_cube)'''
+
+#24 calculate speed
+'''distance=float(input("enter distance"))
+time=int(input("enter time"))
+S=distance/time
+print("the speed is",S)'''
 
 
 
